@@ -1,5 +1,4 @@
-'''
-
+"""
 Comparison Sorting
 Quicksort usually has a running time of , but is there an algorithm that can sort even faster? In general, this is not possible. Most sorting algorithms are comparison sorts, i.e. they sort a list just by comparing the elements to one another. A comparison sort algorithm cannot beat (worst-case) running time, since
 
@@ -67,13 +66,14 @@ Explanation
 
 Each of the resulting values
 represents the number of times appeared in .
+"""
 
-'''
 import math
 import os
 import random
 import re
 import sys
+
 
 #
 # Complete the 'countingSort' function below.
